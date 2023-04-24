@@ -1,0 +1,386 @@
+#tablecontent {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+table,tr,td{
+    border-collapse: collapse;
+}
+#con3{
+    position: relative;
+    padding-top: 100px;
+}
+
+.bgfirst {
+    background-image: url(images/abstract-blue-modern-background-template.jpg);
+}
+
+.bgfirst div div {
+    background-color: transparent;
+}
+
+.cardgroup {
+    display: flex;
+    margin-top: -300px;
+    flex-direction: row;
+}
+
+@media screen and (max-width:700px) {
+    .cardgroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.card1 {
+    height: 350px;
+    background-color: hsla(175, 83%, 43%, 0.999);
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.card2 {
+    height: 400px;
+    background-color: hsla(169, 78%, 39%, 0.999);
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.card3 {
+    height: 350px;
+    background-color: hsla(169, 87%, 33%, 0.999);
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+#btngroup {
+    background-color: hsla(169, 89%, 35%, 0.999);
+    color: #fff;
+    border: 1px solid rgb(12, 130, 120);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -3%;
+}
+
+
+.head1 {
+    text-align: center;
+}
+
+.card11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+
+
+
+#group {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: rgb(12, 130, 120);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.work {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+
+.box1 {
+    grid-column: 1 / span 4;
+    height: 250px;
+    background-image: url(/images/box1.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    grid-column: 5 / span 2;
+    height: 250px;
+    background-image: url(/images/box2.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    grid-column: 1 / span 3;
+    height: 250px;
+    background-image: url(images/box3.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    grid-column: 4 / span 3;
+    height: 250px;
+    background-image: url(/images/box4.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    grid-column: 1 / span 2;
+    height: 250px;
+    background-image: url(images/box5.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    grid-column: 3 / span 4;
+    height: 250px;
+    background-image: url(images/box6.jpg);
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+}
+
+.box1 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: darkblue;
+    overflow: hidden;
+    opacity: 0.732;
+    padding: 5px;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 div:hover {
+    background-color: transparent;
+}
+
+.box2 div:hover {
+    background-color: transparent;
+}
+
+.box3 div:hover {
+    background-color: transparent;
+}
+
+.box4 div:hover {
+    background-color: transparent;
+}
+
+.box5 div:hover {
+    background-color: transparent;
+}
+
+.box6 div:hover {
+    background-color: transparent;
+}
+
+.box2 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: skyblue;
+    opacity: 0.732;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.box3 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: yellowgreen;
+    opacity: 0.732;
+    padding: 5px;
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.box4 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: red;
+    opacity: 0.732;
+    padding: 5px;
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.box5 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: purple;
+    opacity: 0.732;
+    overflow: hidden;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.box6 div {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    flex-direction: column;
+    background-color: green;
+    opacity: 0.732;
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+}
+
+.gridbox div div div small {
+    font-size: 10px;
+    padding: 0%;
+    color: rgb(225, 219, 219);
+}
+
+.gridbox div div div h2 {
+    padding: 0%;
+    color: #fff;
+}
+
+
+.thirdgroup div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+}
+
+@media (min-width: 500px) {
+
+    .footers {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer1,
+    .footer2,
+    .footer3 {
+        width: 98%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 700px) {
+    .footers {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer1,
+    .footer2,
+    .footer3 {
+        width: 49%;
+        padding: 5px;
+    }
+
+}
+
+.footers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+    width: 320px;
+    padding: 5px;
+}
+#btn10{
+    background-color: rgb(12, 130, 120);
+    color: #fff; border-radius: 0%;
+}
+#btn10:hover{
+    box-shadow: 1px 1px 5px rgb(47, 176, 190);
+    background-color: rgb(240, 236, 236); 
+    color: #040404;
+}
+.icongroup {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.icongroup i,
+#icon li i {
+    color: rgb(12, 130, 120);
+    padding: 5px;
+    margin: 5px;
+}
+/* navbar control */
+.strong{
+    position: fixed;
+    top: 0%;
+    background-color: transparent;
+    z-index: 999;
+    width: 100%;
+}
+#nav{
+    width: 80%;
+}
